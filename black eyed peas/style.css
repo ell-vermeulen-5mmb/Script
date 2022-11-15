@@ -1,0 +1,42 @@
+body {
+    background-image: url(images/Black-Eyed-Peas-Fergie-Taboo-ap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.300);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: darkgray;
+}
+#home{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: darkgray;
+}
+#merch{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: darkgray;
+}
+#awards{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: darkgray;
+}
+#gallery{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: darkgray;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    padding: 10px 40px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    background-color: transparent;
+    color: aliceblue;
+}
