@@ -1,0 +1,38 @@
+body {
+    background: #938c5b url("img/lizard.png") center no-repeat 200px;
+   
+    background-color: #938c5b;
+    background-image: url("img/lizard.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+   }
+   .flexbox {
+    display: flex;
+  }
+  .col {
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid rgb(109, 89, 8);
+  }
+  .left {
+    width: 70%;
+  }
+  .right {
+    width: 70%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 75%;
+    margin: 0 20px;
+  }
+  h1,
+  h2,
+  p {
+    margin: 0.5em 0;
+  }
