@@ -1,0 +1,29 @@
+/* CSS Reset */
+html, body, h1, h2, h3, p, ul, li, a, img, .header-row {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header-row {
+  width: 100%;
+  flex: 1;
+}
+
+.header-row-1 {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+}

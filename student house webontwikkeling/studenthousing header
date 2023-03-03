@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Home Haven</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-row header-row-1">
+        <div class="logo-and-name">
+          <img src="studenthouse.jpg" alt="Logo">
+          <h1>Student Home Haven</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-row header-row-2">
+        <div class="hero-section">
+          <div class="hero-text-block">
+            <h2>Creating Spaces for Life's Greatest Moments</h2>
+            <h3>Our Mission Statement</h3>
+            <p>We are dedicated to providing safe, comfortable, and convenient housing solutions for college students. We strive to create a sense of community and belonging for our residents, while ensuring that their housing needs are met with quality and affordability. We are committed to helping students make the most of their college experience by providing them with a home away from home.</p>
+            <a href="#" class="cta-button">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-row header-row-3">
+        <ul class="social-media-icons">
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+          <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>
