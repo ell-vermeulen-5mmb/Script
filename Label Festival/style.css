@@ -1,0 +1,16 @@
+.line-up {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .kolom {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  

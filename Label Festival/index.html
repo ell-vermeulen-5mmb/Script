@@ -1,12 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Festival | 2023</title>
+  <link rel="stylesheet" href="mijn-stijlen.css">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <style>
+    .line-up {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .kolom {
+      flex-basis: calc(33.33% - 20px);
+      margin-bottom: 20px;
+    }
+    
+    .img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
 </head>
 <body>
-<header></header>
+  <header>
+    <img src="mijn-logo.png" alt="My Festival">
+    <nav>
+      <ul>
+        <li><a href="#">Line-up</a></li>
+        <li><a href="#">Tickets</a></li>
+        <li><a href="#">Informatie</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h1>My Festival 2023</h1>
+      <p>Welkom op My Festival 2023, het grootste muziekfestival van het jaar!</p>
+    </section>
+    
+    <section class="line-up">
+      <h2>Line-up</h2>
+      <div class="kolom">
+        <img src="artiest-1.jpg" alt="Artiest 1" class="img">
+        <h3>Artiest 1</h3>
+        <p>Beschrijving van Artiest 1</p>
+      </div>
+      <div class="kolom">
+        <img src="artiest-2.jpg" alt="Artiest 2" class="img">
+        <h3>Artiest 2</h3>
+        <p>Beschrijving van Artiest 2</p>
+      </div>
+      <div class="kolom">
+        <img src="artiest-3.jpg" alt="Artiest 3" class="img">
+        <h3>Artiest 3</h3>
+        <p>Beschrijving van Artiest 3</p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 My Festival</p>
+  </footer>
 </body>
 </html>
